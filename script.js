@@ -17,7 +17,7 @@ function com() {
                 fp = false;
             }
 
-            let casaMenor2ForaMaior4 = prompt("A casa é menor ou igual que 2 e a fora é maior ou igual que 4?");
+            let casaMenor2ForaMaior4 = prompt("A casa é menor ou igual que 2 e a fora é menor que 4,5?");
             if (casaMenor2ForaMaior4.toLowerCase() === "sim" && !fp) {
                 window.alert("Entrada na quarta casa para over");
             } else {
